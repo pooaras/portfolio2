@@ -2,7 +2,7 @@ gsap.to('.nav-item',{duration:1,x:10,stagger:.5})
 gsap.from('.nav-item',{duration:1,opacity:.5,delay:1})
 gsap.from('.bi',{duration:1,x:-100})
 gsap.from('.bi',{duration:1,opacity:.5,delay:1,stagger:.5})
-gsap.to('.name',{duration:3,delay:.2,x:100,opacity:1,stagger:.5})
+gsap.to('.name',{duration:1.3,delay:.1,x:400,opacity:1,stagger:.5})
  
 const timeline=gsap.timeline({default:{duration:.3}})
 timeline.from('.hea',{x:-100,opacity:0})

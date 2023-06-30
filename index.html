@@ -13,6 +13,7 @@
      @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
      @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
      @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+    
      .icon{
       width: 30px;
       margin-right: 40px;
@@ -25,8 +26,10 @@
         background-image: url(pic1.jpg) ;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
       }
       .tansbox {
+        text-align: center;
         margin: 30px;
         margin-top: 60px;
         padding-bottom: 250px;
@@ -34,10 +37,11 @@
         border: 1px solid black;
         opacity: 0.3;
         color: #000000;
+
       }
       .name{
         opacity: 0;
-        transform: translateX(-200px);
+        transform: translateX(100px);
         padding-top: 30px;
         font-size: 30px;
         font-family: 'Fasthand', cursive;
@@ -144,13 +148,12 @@ button:hover span::before, button:hover span::after{
     <div id="par">
        <div class="tansbox">
         <div class="name">
-          <div class="svg hide" id="svg"></div>
           <div class="poo">POOARASU</div><br/>
           <p >I'm an enthusiastic web developer. This is my own portfolio.</p> <br><p style="font-family: 'Caprasimo', cursive;font-size: 24px;"><a class="port" href="/profile.html"> <button class="btn-1"><span>My portfolio</span></button></a style="text-decoration: none;"> </p><p>Click the above button to view my profile.</p>
         </div>
         <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_T5tVEx.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;float: right;opacity: 1;"  loop autoplay></lottie-player>
       </div>
-      <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_efbizstn.json"  background="transparent"  speed="1"  style="width: 500px; height: 600px;position: fixed;transform: translate(1000px,-750px);opacity: .8;"  loop  autoplay></lottie-player>
+      
         <!-- <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_vybwn7df.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;float: right;margin-top: -37%;"  loop autoplay></lottie-player> -->
     </div>
     <script>
